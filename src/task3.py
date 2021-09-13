@@ -1,3 +1,8 @@
+import time
+import io
+import contextlib
+import inspect
+
 def decorator_3(f):                             
     counter = 0
     def inner_func(*args,**kwargs):  
